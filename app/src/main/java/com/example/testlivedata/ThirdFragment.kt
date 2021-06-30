@@ -15,7 +15,7 @@ class ThirdFragment : Fragment(R.layout.fragment_third) {
 
         view.findViewById<AppCompatButton>(R.id.nextButton).apply {
             setOnClickListener{
-                val action = ThirdFragmentDirections.actionThirdFragmentToForceFragment
+                val action = ThirdFragmentDirections.actionThirdFragmentToForceFragment()
                 findNavController().navigate(action)
             }
         }
