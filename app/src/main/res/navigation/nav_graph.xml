@@ -30,6 +30,23 @@
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
     </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.testlivedata.ThirdFragment"
+        android:label="ThirdFragment"
+        tools:layout="@layout/fragment_third">
+        <action
+            android:id="@+id/action_thirdFragment_to_forceFragment"
+            app:destination="@+id/forceFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_thirdFragment_self"
+            app:destination="@id/thirdFragment" />
+    </fragment>
+
 
 
 </navigation>
