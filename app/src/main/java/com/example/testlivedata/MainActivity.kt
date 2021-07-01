@@ -2,10 +2,10 @@ package com.example.testlivedata
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.widget.Toolbar
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.example.testlivedata.R
 
 class MainActivity : AppCompatActivity() {
 
